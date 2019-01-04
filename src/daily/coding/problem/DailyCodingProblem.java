@@ -4,10 +4,15 @@ import java.util.Scanner;
 
 /**
  *
- * @author adams
+ * @author Adam Sorrenti
+ * @date 4-Jan-2019
+ * @description Main class with simple console based interface used for running,
+ * configuring, and test Daily Coding Problems. These problems have been 
+ * provided by https://www.dailycodingproblem.com/.
+ * 
  */
 public class DailyCodingProblem {
-
+    
     static boolean Problem1(){
         Problem1 p1;
         int[] list = {10, 15, 3, 6};
