@@ -26,6 +26,12 @@ public class DailyCodingProblem {
         p2 = new Problem2(list);
         return(p2.output());
     }
+    static int Problem3(){
+        Problem3 p3;
+        int[] list = {1, 2, 0};
+        p3 = new Problem3(list);
+        return(p3.findMissing());
+    }
     /**
      * @param args the command line arguments
      */
@@ -45,7 +51,9 @@ public class DailyCodingProblem {
                 case 2:
                     System.out.println(Arrays.toString(Problem2()));
                         break;
-
+                case 3:
+                    System.out.println(Problem3());
+                        break;
                 default:
                     System.out.println("Try again");
                         break;                         
