@@ -1,5 +1,3 @@
-package daily.coding.problem;
-
 /**
  *
  * @author Adam Sorrenti
